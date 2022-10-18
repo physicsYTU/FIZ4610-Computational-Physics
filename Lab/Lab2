@@ -2,17 +2,21 @@ Lab Session - 2
 
 Save your work in files
 
-Task 1- Write a calculator program that an add (+) -subract (-)- multiply (*) -divide (/) depending upon the input from the user. (Program ends when input is 0)
+Task 1-  Make a simplest possible Python program that calculates and prints the value of the formula  y=6x^2 + 3x + 2, for x=2.
 
-Task 2- Write a calculator program contains functions for adding (+) -subracting (-)- multiplying (*) -dividing (/) numbers depending upon the input from the user. (Program ends when input is 0)
+Task 1a- Make a simplest possible Python function that calculates and prints the value of the formula  y=6x^2 + 3x + 2, for given x.
+
+Task 2- Write a calculator program that an add (+) -subract (-)- multiply (*) -divide (/) depending upon the input from the user. (Program ends when input is 0)
+
+Task 2a- Write a calculator program contains functions for adding (+) -subracting (-)- multiplying (*) -dividing (/) numbers depending upon the input from the user. (Program ends when input is 0)
 
 Task 3- Write a program to convert to temperature from degree centigrade to degree Fahrenheit, C->F, F->C,  K->C,  C->K, K->F, F->K.
 
-Task 4- Write a program contains functions for converting to temperature from degree centigrade to degree Fahrenheit, C->F, F->C,  K->C,  C->K, K->F, F->K.
+Task 3a- Write a program contains functions for converting to temperature from degree centigrade to degree Fahrenheit, C->F, F->C,  K->C,  C->K, K->F, F->K.
 
-Task 5-
+Task 4- Find the dot product of v and u vectors in Python. Find the dot product of −2v and 3u in Python.
 
-Task 6-
+Task 5- 
 
 
 So let's type some code.
