@@ -1,11 +1,46 @@
 
 Chapter 4
 - Python
+
+
+      ################ 
+          Loops
+      ################  
+      
+      A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
+    This is less like the for keyword in other programming languages, and works more like an iterator method as found in other object-orientated programming languages.
+
+ 
+    for i in range(5):
+    print (i)
+ 
+    The range() function defaults to increment the sequence by 1, however it is possible to specify the increment value by adding a third parameter: range(2, 30, 3): 
     
-    Loops
-      for i in range(5):
+"""    
+    for x in [0, 1, 2]:
+    pass
+"""  
+  
+     ################  
+       Functions 
+     ################  
+    A quick overview of some tips which may improve your programming skills: nested functions, variable parameters and lambda functions.
     
-    Functions 
+    In programming, a function is a reusable block of code that executes a certain functionality when it is called.
+    Functions are integral parts of every programming language because they help make your code more modular and reusable.
+
+""""
+def functionName():
+   # What to make the function do
+"""    
+ def myfunction():
+    print("Hello World")
+    
+    
+ To call this function, write the name of the function followed by parentheses:
+
+myfunction()
+
 """   
     def sum (a,b)
       print (a+b)
@@ -14,6 +49,16 @@ Chapter 4
       Python *lambda functions*, also known as anonymous functions, are inline functions that do not have a name. 
       They are created with the lambda keyword. This is part of the functional paradigm built-in Python. 
       Python lambda functions are restricted to a single expression
+    
+    A lambda function is an inline function, which can be used to run simple and repetitive operations, such well-known math operations.
+
+"""
+from math import sqrt
+pythagora = lambda x,y : sqrt(x**2 + y**2)
+
+
+pythagora(3,4)
+"""
     
     
 """   def square(x):
@@ -25,9 +70,25 @@ Chapter 4
       print(sqr_fun(4))
 """
 
+"""
+def manipulate_strings(a,b):
     
+    def inner(s):
+        s = s.lower()
+        return s[::-1]
+    
+    return inner(a), inner(b)
+
+>>>check this program for 
+
+a = "HELLO"
+b = "WORLD"
+manipulate_strings(a,b)
+
+"""
+  ################  
     Conditionals
-    
+  ################  
 """
       if condition :
         statement
