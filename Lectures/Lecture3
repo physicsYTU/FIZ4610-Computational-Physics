@@ -1,0 +1,39 @@
+
+Chapter 4
+- Python
+    
+    Loops
+      for i in range(5):
+    
+    Functions 
+"""   
+    def sum (a,b)
+      print (a+b)
+      return a+b
+"""      
+      Python *lambda functions*, also known as anonymous functions, are inline functions that do not have a name. 
+      They are created with the lambda keyword. This is part of the functional paradigm built-in Python. 
+      Python lambda functions are restricted to a single expression
+    
+    
+"""   def square(x):
+        return x * x
+      
+      sqr_fun = lambda x: x * x
+      
+      print(square(3))
+      print(sqr_fun(4))
+"""
+
+    
+    Conditionals
+    
+"""
+      if condition :
+        statement
+      else:
+       statement
+"""    
+    
+       
+      
