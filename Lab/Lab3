@@ -15,7 +15,16 @@ b.	By using Lambda function.
 
 Task 2
 We will estimate the derivative of the function f( x) = -1/x at x=3 and check the result against the 
-exact result  i.e, Error = Estimated value – True value
+exact result.Tabulate your result.  i.e, Error = Estimated value – True value
+
+The results are in the form:
+
+Method  Numerical   Exact       Error
+FDA     0.442829    0.447214    0.004385
+CDA     0.447303    0.447214    0.000090
+REA     0.447213    0.447214    0.000000
+CDA2    -0.089487   -0.089443   0.000045
+REA2    -0.089443   -0.089443   0.00000
 
 Task 3
 
@@ -24,6 +33,8 @@ Compute the first derivative of  f(x) = 3x^3 + 2x^2 + x at x=3 and x=10  using t
 Task4
 
 Investigate the CDA2 and REA2 expressions for finding the second derivative of a function given as f(x)=sqrt(2x-1) 
+
+
 
 Numerical derivatives are as follows: 
 FDA = (f(x + h) − f(x))/(h) 
