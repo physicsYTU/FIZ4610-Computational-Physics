@@ -29,11 +29,11 @@ REA2    -0.089443   -0.089443   0.00000
 Task 3
 
 Compute the first derivative of  f(x) = 3x^3 + 2x^2 + x at x=3 and x=10  using the FDA, CDA, BDA, REA with h=0.01. Write a program to calculate the deriavative of function f(x) at x=3 and x=10. Secondly, compare the accuracy of FDA(x=3), CDA(x=3) and REA(x=3).  For this use h = 0.01, h=10^-3, h=10^-4 ….
+Plot the function and it's derivatives
 
 Task4
 
 Investigate the CDA2 and REA2 expressions for finding the second derivative of a function given as f(x)=sqrt(2x-1) 
-
 
 
 Numerical derivatives are as follows: 
