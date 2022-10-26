@@ -1,0 +1,34 @@
+Lab 
+Task 1
+
+x=3
+x2=10
+y3 = 3*x**3+2*x**2+x
+y10 = 3*x2**3+2*x2**2+x2
+print("f(3) = ", y3, "f(10) = ",y10)
+
+Implementation 
+Implementation of the above methods is simple. The program requires a definition of f(x) 
+a.	By using definng function (def function_name():
+b.	By using Lambda function.
+
+
+Task 2
+We will estimate the derivative of the function f( x) = -1/x at x=3 and check the result against the 
+exact result  i.e, Error = Estimated value – True value
+
+Task 3
+
+Compute the first derivative of  f(x) = 3x^3 + 2x^2 + x at x=3 and x=10  using the FDA, CDA, BDA, REA with h=0.01. Write a program to calculate the deriavative of function f(x) at x=3 and x=10. Secondly, compare the accuracy of FDA(x=3), CDA(x=3) and REA(x=3).  For this use h = 0.01, h=10^-3, h=10^-4 ….
+
+Task4
+
+Investigate the CDA2 and REA2 expressions for finding the second derivative of a function given as f(x)=sqrt(2x-1) 
+
+Numerical derivatives are as follows: 
+FDA = (f(x + h) − f(x))/(h) 
+CDA = (f(x + h) − f(x − h))/(2h) 
+BDA = (f(xh) − f(x-h))/(h) 
+REA = (f(x − 2h) − 8f(x − h) + 8f(x + h) − f(x + 2h))/(12h) 
+CDA2 = (f(x − h) − 2f(x) + f(x + h))/h2 
+REA2 = (−f(x−2h)+16f(x−h)−30f(x)+16f(x+h)−f(x+2h))/(12h 2 ) 
