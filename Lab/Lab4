@@ -1,0 +1,61 @@
+Numerical Integration
+
+
+TASK 1:
+
+# Python Code Example: Fill in the blanks in given program code. 
+
+def func(x): 
+#define the function f(x) = x^3 - 3*x^2 + 5
+
+Your code is here
+
+
+#input the lower and upper limit
+n=int((input("input the number of intervals")))           		# input the number of intervals
+
+# the interval size 
+Your code is here
+
+etf=float((func(a)+func(b))/2)              # sum the end points
+
+for i in range(1,n):
+  x = a + i*h                    #calculate the evaluation position 
+  etf = etf + func(x)            # sum over the remaining points
+                              # complete the ETF
+  print(etf) 
+
+etf = etf*h 
+
+print ('The integral = ',etf )              #output the result
+
+HINT:  Algorithm for Trapozidal Method
+
+input a, b 			# input the lower and upper limits
+input n 			# input the number of intervals
+h = (b-a) / n 			# the interval size
+etf = ( f(a) + f(b) ) / 2 		# sum the end points
+for  i = 1 to n-1
+x = a + i*h 			# calculate the evaluation position
+etf = etf + f(x) 			# sum over the remaining points
+
+etf = etf*h 			# complete the ETF
+
+print ’The integral = ’,etf 	# output the result
+
+TASK 2 :
+
+Create a table for different n values between 1 to 100 with 4 decimal digit.  
+
+TASK 2 :
+
+Write a computer program to integrate the following functions to an accuracy of at least 6 decimal places using the 
+Trapezoidal Formula and the Simpson’s (1/3 and 3/8) Formula.
+
+a.	F(x) = ( 1-x^2 )^(1/2) over the range x=-1 to x=1
+b.	F(t) = 894 t / ( 1.76 + 3.21 t^2 )^3 over the range t=0 to t=1.61
+
+Estimate the integrals from a rough sketch of the function.
+
+HINT: 
+
