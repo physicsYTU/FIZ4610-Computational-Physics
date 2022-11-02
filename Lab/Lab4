@@ -8,14 +8,20 @@ TASK 1:
 def func(x): 
 #define the function f(x) = x^3 - 3*x^2 + 5
 
-Your code is here
+#Your code is here
 
+#Creata plot of the function.
+
+# Your code is here...
 
 #input the lower and upper limit
 n=int((input("input the number of intervals")))           		# input the number of intervals
 
+
 # the interval size 
 Your code is here
+
+
 
 etf=float((func(a)+func(b))/2)              # sum the end points
 
