@@ -1,0 +1,44 @@
+Lab 5
+
+Task 1. 
+
+The vertical motion of a ball thrown up in the air. From Newton’s second law of motion one can set up a mathematical model for the motion of the ball and find that the vertical position of the ball, called
+y, varies with time t according to the following formula:
+y(t)=v_o t –( ½) g t^2 
+Here, v_0 is the initial velocity of the ball, g is the acceleration of gravity, and t is time. Observe that the y axis is chosen such that the ball starts at y = 0 when t = 0. The above formula neglects air resistance, which is usually small unless v_0 is large.
+
+Write a program to evaluate the formula given above for a specific choice (input by keybord) of v_0, and t . Take g=9.81 m/s^2.
+
+Task 2 
+
+Write a function to calculate the formula given above.
+
+Task 3.
+
+How long time does it take for the ball to reach the height yc? The answer is straightforward to derive. When y =y_c we have
+y_c=v_o t – ( ½) g t^2 .
+We recognize that this equation is a quadratic equation, which we must solve with respect to t. Write a program evaluate the expressions for t_1 and t_2 in a computer program. (v0 = 5, g = 9.81)
+
+Task 4. 
+
+Take the derivative and integral of given formula by using sympy library. Use codes given below with correcting errors.
+
+from sympy import (
+…	symbols, # define symbols for symbolic math
+…	diff,	# differentiate expressions
+…	integrate, # integrate expressions
+ …	Rational, # define rational numbers
+…	lambdify, # turn symbolic expr. into Python functions
+)
+t, v0, g = symbols(’t v0 g’)
+  y = v0*t - Rational(1,2)*g*t**2
+  dydt = diff(y, t)
+  dydt
+  print ’acceleration:’, diff(y, t, t) # 2nd derivative
+acceleration: 
+  y2 = integrate(dydt, t)  
+-g*t**2/2 + t*v0
+
+
+Info:
+Programs must be accurate! A program is a collection of statements stored in a text file. Statements can also be executed interactively in a Python shell. Any error in any statement may lead to termination of the execution or wrong results. The computer does exactly what the programmer tells the computer to do!
