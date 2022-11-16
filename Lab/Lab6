@@ -1,0 +1,68 @@
+Lab 6.
+
+Task 1. 
+Using Bisection method, find the root of the function f(x) = x^3 -28 with accuracy at least 1% in the interval [3.0, 3.5]
+
+Algorithm
+
+define function f = x**3-28
+
+input lb, ub, tolerance
+
+loop 
+hb = (ub-lb)/2   	# the error estimate
+mp = (ub+lb)/2	# the new root estimate
+
+output mp, hb
+
+if ( hb < tolerance ) exit 		# terminate if tolerance is satisfied
+
+if ( f(lb)*f(mp) < 0 ) 
+ub=mp 
+elif 
+lb=mp
+
+
+Task 2. 
+Using Newton-Raphson method, find the root of the function f(x) = x^3 -28 with accuracy at least 1%. Start with x0 = 2.
+
+Algorithm
+
+define f(x) = x^3 - 28
+define f’(x) = 3 x^2
+
+
+input x					# input the initial root estimate
+input Tolerance   			# input the tolerance (required accuracy)
+do
+Error = f(x) / f’(x)		# the error estimate
+output x, Error			# output current estimates
+if ( |Error| < Tolerance ) 
+terminate 				# terminate if tolerance is satisfied
+x = x – Error				# subtract the error estimate
+
+
+
+
+Hw
+HW1. Write the formula y=(b e^3k+√(b^2-4ac))/(Sin(2a+π))  that can be used in python program.
+
+HW2. What is the output of this code?
+ 
+x = 3 
+y = 4 
+calculation = x*y 
+print(calculation) 
+What is the output of this code?
+
+
+Hello  
+World! 
+What is the best choice of code to create the output shown above?
+
+
+import math 
+print("%.16f"% math.pi)
+what is the output of this code?
+
+
