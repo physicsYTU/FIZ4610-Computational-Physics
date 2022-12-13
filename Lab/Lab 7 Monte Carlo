@@ -1,0 +1,132 @@
+Lab for Monte Carlo Method
+###
+TASK 1. 
+###
+Generate random numbers
+          between 0 and 1, 
+          between 1 and 10 
+          even **integer** from 0 to 100
+          letters between a to j
+          three elements randomly from the given list  [1, 2, 3, 4, 5, 6]
+by using python code.
+
+###
+TASK 2.
+###
+Implement Algorithm given into a computer program, compile and run the program. 
+Check that
+      P(”heads”) = nheads/n 
+tends to 0.5 for large n. 
+
+Repeat this experiment replacing the coin with two dice. 
+**********************************************************
+'''
+program 1
+'''
+import random
+tries = 0
+c = 0
+while tries < 100:
+    tries += 1
+    coin = random.randint(1, 2)
+    if coin == 1:
+        print('Heads')
+  c+=1
+    if coin == 2:
+        print ('Tails')
+total = tries
+print(total)
+**********************************************************
+'''
+Program 2
+'''
+import random
+samples = [ random.randint(1, 2) for i in range(100) ]
+heads = samples.count(1)
+tails = samples.count(2)
+
+for s in samples:
+    msg = 'Heads' if s==1 else 'Tails'
+    print msg
+
+print "Heads count=%d, Tails count=%d" % (heads, tails)
+**********************************************************
+'''
+Program 3
+'''
+import random as r
+for i in range (n):
+  dice1 = r.randint(1,6)
+  dice2 = r.randint(1,6)
+  print(dice1,dice2, i)
+ 
+**********************************************************
+###
+TASK 3.
+###
+Use code to calculate pi. Check the value of pi for different trial  numbers.
+
+**********************************************************
+'''
+Program 4
+'''
+import numpy as np
+nTrials = int(10E14)  		 # Input parameters
+radius = 2
+nInside = 0			# Counter for the points inside the circle
+
+# Generate points in a square of side 2 units, from -1 to 1.
+XrandCoords = np.random.default_rng().uniform(-1, 1, (nTrials,))
+YrandCoords = np.random.default_rng().uniform(-1, 1, (nTrials,))
+ 
+for i in range(nTrials):
+    x = XrandCoords[i]
+    y = YrandCoords[i]
+    if x**2+y**2 <= radius**2:     # Check if the points are inside the circle or not
+        nInside = nInside + 1
+                 
+area = 4*nInside/nTrials
+print(”Ntrials = ”, nTrials,  "\t Value of Pi: ", area)
+**********************************************************
+###
+TASK 4. 
+###
+Calculate the integral of sin x dx between 0 t0 pi by using given code. Change the trial number to find correct value of integral. Calculate the integral of function f(x)=9x^2+ x^3)*np.exp(-x) between a=1 to b=4.
+# function to calculate the sin of a particular value of x
+**********************************************************
+'''
+Program 5
+'''
+from scipy import random
+import numpy as np
+
+def f(x):
+    return np.sin(x) 
+# function to calculate the sin of a particular value of x
+
+
+a = 0			# limits of integration
+b = np.pi 		# gets the value of pi
+N = 10
+  
+ar = np.zeros(N) 		# array of zeros of length N
+
+# iterating over each Value of ar and filling it with a random value between the limits a and b
+
+for i in range (len(ar)):
+    ar[i] = random.uniform(a,b)
+  
+# variable to store sum of the functions of different values of x
+integral = 0.0
+  
+# iterates and sums up values of different functions of x
+for i in ar:
+    integral += f(i)
+  
+# we get the answer by the formula derived adobe
+ans = (b-a)/float(N)*integral
+  
+# prints the solution
+print ("The value calculated by monte carlo integration is”,ans)
+**********************************************************
+
