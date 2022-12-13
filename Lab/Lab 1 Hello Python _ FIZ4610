@@ -4,10 +4,15 @@ Lab Session - 1
 Interactive commands are good for experimentation, but we also want to save our work in files.
 
 Task 1- Run IDLE from the Start Menu.
+
 Task 2-Write your first code “Hello FIZ4610”.
+
 Task 3-Write a simple calculater program that calculates two number arithemetic operations (add-subract- multiply-divide).
+
 Task 4-Your calculator program ask the input numbers. Then calculates two number arithemetic operation.
+
 Task 5-Write a program to input temperature in Centigrade and convert to Fahrenheit. How to convert temperature from degree centigrade to degree Fahrenheit.
+
 Task 6-Write a program that calculates BMI (Body Mass Index). Body Mass Index is a simple calculation using a person’s height and weight.The formula is BMI = kg/m^2 where kg is a person’s weight in kilograms and m2 is their height in metres squared.
 
 
