@@ -1,0 +1,14 @@
+Task 1. 
+Given the following polynomial: p(x) = −5.45x^4 + 3.2x^2 + 8x+ 5.6 find the roots of this equation by using polynomial from library numphy. (p(x)=0  => x=?)
+
+x = [0, 1, 2, 3, 4, 5]
+y = [15, 10, 9, 6, 2, 0]
+For given data
+
+Task 2.  
+Make a curve fitting by using by using linear regression.
+
+Task 3.  
+Make a curve fitting by using the models using different orders (2.order, 3.order, 4.order and 5.order) of the polynomial.
+
+Task 4. Make a curve fitting by using the NumPy functions polyfit() and polyval for 3rd.order model.
