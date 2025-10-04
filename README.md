@@ -15,7 +15,7 @@ FIZ4610-Computational-Physics
 
 - 👋 Hi, I’m @NumericalAnalysis-YTU
 - 👀 I’m interested in FIZ4610-Computational-Physics
-- 🌱 I’m currently learning Fortran - Python - MATLAB - 
+- 🌱 I’m currently learning Fortran - Python - MATLAB - C++
 - 💞️ I’m looking to collaborate on Quantum Computing project ANN - GP - AI - Deep Learning -  ...
 - 📫 How to reach me "Come to Class" - Send me an email for rearranging ZOOM meeting for Office Hours...
 
@@ -166,44 +166,48 @@ Lectures, Labs, Attendance, Exams
 
 Lectures:
 
-Wednesdays { 13:30-16:00, two-hour lecture \
-Thursdays { 08:30-10:20, two-hour lab \
+Wednesdays { 16:00-19:00, three-hour lecture \}
+
 
 **Grading:**
 
 I hope every student will get grade AA
 
-It will be based on two mid-term exams and final exam: Midterms 30% each, Final 40%.
+It will be based on two mid-term exams and final exam: Midterms 30%, Lab(+quiz) 10%, Project 20%, Final 40%.
 
 Schedule :
 
-Week 1 | 4-7 Oct 2021 | Introduction to Course
+Week 1 | 1 Oct 2025 | Introduction to Course
 
-Week 2 | 11-14 Oct 2021 | Errors
+Week 2 | 8 Oct 2025 | Errors
 
-Week 3 | 18-21 Oct 2021 | Numerical Derivative
+Week 3 | 15 Oct 2025 | Numerical Derivative
 
-Week 4 | 25-28 Oct 2021 | Roots
+Week 4 | 22 Oct 2025 | Roots
 
-Week 5 | 01-04 Nov 2021 | Optimization
+Week 5 | 29 Oct 2025 | Holiday 
 
-Week 6 | 08-11 Nov 2021 | Numerical Integration
+Week 6 | 5 Nov 2025 | Optimization
 
-Week 7 | 15-18 Nov 2021 | Numerical Solutions to DE
+Week 7 | 12 Nov 2025 | Numerical Integration
 
-Week 8 | 22-25 Nov 2021?? *** Midterm Exam at 13:30 ***
+Week 8 | ... Nov 2025?? *** Midterm Exam at 13:30 ***
 
-Week 9 | 29 Nov - 2 Dec 2021 | Numerical Solutions to DE
+Week 9 | 26 Nov 2025 | Numerical Solutions to DE
 
-Week 10 | 06-09 Dec 2021 | Curve Fitting
+Week 10 | 03 Dec 2025 | Numerical Solutions to DE
 
-Week 11 | 13-16 Dec 2021 | MC Methods
+Week 11 | 10 Dec 2025 | Curve Fitting
 
-Week 12 | 20-23 Dec 2021 | Artificial Intelligence
+Week 12 | 17 Dec 2025 | MC Methods
 
-Week 13 | 27-30 Dec 2021 | Deep Learning
+Week 13 | 24 Dec 2025 | Artificial Intelligence - Deep Learning
 
-Week 14 | 30 Dec 2021 | Quantum Computing
+Week 14 | 31 Dec 2025 | Quantum Computing
+
+Week 15 | 07 Jan 2026 | Review
+
+Week 16  |.. Jan 2026 | Final
 
 Contents
 
