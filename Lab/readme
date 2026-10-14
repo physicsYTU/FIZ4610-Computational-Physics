@@ -1,5 +1,38 @@
 
 
-2025-2026 - Autumn Term (Fall Semester)
+x = int(input("Integer: "))
+
+if x > 2:
+  if((x%2) == 0):
+    x = x / 2
+    print("2 e kalansız bölünür")
+
+if x > 3:
+  if(x%3 == 0):
+    x = x / 3
+    print("3 e kalansız bölünür")
+
+if x > 5:
+  if(x%5 == 0):
+    x = x / 5
+    print("5 e kalansız bölünür")
+
+if x > 7:
+  if(x%7 == 0):
+    x = x / 7
+  print("7 e kalansız bölünür")
+if x > 11:
+  if(x%11 == 0):
+    x = x / 11
+  print("11 e kalansız bölünür")
+if x > 13:
+  if(x%13 == 0):
+    x = x / 13
+  print("13 e kalansız bölünür")
+print( x )
+
+
+
+2026-2027 - Autumn Term (Fall Semester)
 
 The Task on Lab Sessions are here 
