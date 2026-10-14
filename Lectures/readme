@@ -1,5 +1,7 @@
 Read and play with codes.
 
+rm -rf FIZ4610-Computational-Physics && git clone https://github.com/physicsYTU/FIZ4610-Computational-Physics
+
 #------program1----- 
 x = int(input("Integer: "))
 
