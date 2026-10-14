@@ -1,1 +1,15 @@
 Read and play with codes.
+
+
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+def func(x,A,B):
+  return(A*x**2+B*x)
+
+xlist=np.linspace(0,10,10)
+ylist=func(xlist,2,1.4)
+
+plt.figure(1)
+plt.plot(xlist,ylist, "o",label="function")
