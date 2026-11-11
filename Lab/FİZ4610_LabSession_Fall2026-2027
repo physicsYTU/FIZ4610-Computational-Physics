@@ -1,0 +1,49 @@
+Lab Session 
+Task 1:  Write a Python program to compute the dot product of vectors v ( and u vectors in Python. a, b, c, d, e, f are constants 
+and provided by the client.
+
+Task 2: We will estimate the derivative of the function f( x) = -1/x at x=3 and check the result against the  exact result.
+Tabulate your result.  
+i.e, Error = Estimated value – True value.  The results (output) are in the form:
+ 
+Method  Numerical   Exact       Error
+FDA     0.442829    0.447214    0.004385
+CDA     0.447303    0.447214    0.000090
+REA     0.447213    0.447214    0.000000
+CDA2    -0.089487   -0.089443   0.000045
+REA2    -0.089443   -0.089443   0.00000
+Hint: Numerical derivatives are as follows: 
+FDA = (f(x + h) − f(x))/(h) 
+CDA = (f(x + h) − f(x − h))/(2h) 
+BDA = (f(xh) − f(x-h))/(h) 
+REA = (f(x − 2h) − 8f(x − h) + 8f(x + h) − f(x + 2h))/(12h) 
+CDA2 = (f(x − h) − 2f(x) + f(x + h))/h2 
+REA2 = (−f(x−2h)+16f(x−h)−30f(x)+16f(x+h)−f(x+2h))/(12h )
+ 
+
+Task 3. Using Bisection Method and Newton-Raphson method, find the root of the function
+f(x) = x^3 -28 with accuracy at least 1%. Start with x0 = 2.
+Algorithm (NR)
+define f(x) = x^3 - 28
+define f’(x) = 3 x^2
+input x					# input the initial root estimate
+input Tolerance   			# input the tolerance (required accuracy)
+do
+Error = f(x) / f’(x)		# the error estimate
+output x, Error			# output current estimates
+if ( |Error| < Tolerance ) 
+terminate 				# terminate if tolerance is satisfied
+x = x – Error				# subtract the error estimate
+
+TASK 4:Write a computer program to integrate the following functions to an accuracy of at least 6 
+decimal places using the  Trapezoidal Formula and the Simpson’s (1/3 and 3/8) Formula.
+F(x) = ( 1-x^2 )^(1/2) over the range x=-1 to x=1
+F(t) = 894 t / ( 1.76 + 3.21 t^2 )^3 over the range t=0 to t=1.61
+Estimate the integrals from a rough sketch of the function.
+HINT: 
+The Trapezoidal Rule is defined as :  I = (b-a)/2) [ f(a)+ (b)]
+Simpson’s 1/3 rule is defined as :    I = ((b-a)/6) [f(a) + 4f(x1)+ f(b)]
+Simpson’s 3/8 rule is defined as :    I = ((b-a)/8) [f(a) + 3f(x1)+ 3f(x2)+f(b)]
+
+
+
